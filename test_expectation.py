@@ -10,7 +10,7 @@ class Info:
         for i in range(1, 11):
             self.deck += i * [i]
         print(self.deck)
-    def bestFold():
+    def bestFold(self):
         return 10
 
 

@@ -5,7 +5,7 @@ from fold_low_with_high import FoldLowWithHigh
 from expectation import Expectation
 
 losers = []
-for i in range(100):
+for i in range(50000):
     d = p.Dealer()
     d.gameState.players[0].strategy = FoldLowWithHigh(3, 8)
     d.gameState.players[1].strategy = FoldLowWithHigh(4, 8)
